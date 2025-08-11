@@ -1,0 +1,19 @@
+[project]
+name = "taskmanager"
+version = "0.1.0"
+description = "An asynchronous Telegram bot for task management built with Python asyncio, implementing concurrent I/O, producer-consumer, fan-out/fan-in, and timeout/retry patterns."
+authors = [
+    {name = "Purple",email = "minecraftingpost@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiogram (>=3.21.0,<4.0.0)",
+    "asyncio (>=4.0.0,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
